@@ -1,0 +1,11 @@
+import numpy as np
+t=np.array([1,0,5,0])
+print("Original array:")
+print(t)
+print("Test if none of the elements of the given array is zero::")
+print(np.any(t))
+a=np.array([0,2,4,6])
+print("Original array:")
+print(a)
+print("Test if none of the elements of the given array is zero::")
+print(np.any(a))
